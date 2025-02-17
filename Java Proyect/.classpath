@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="BibliotecaPOO/src"/>
+	<classpathentry kind="src" path="Ejercicios/src"/>
+	<classpathentry kind="src" path="Entornos1/src"/>
+	<classpathentry kind="src" path="Entornos 3.3/src"/>
+	<classpathentry kind="src" path="Estudiante/src"/>
+	<classpathentry kind="src" path="Persona/src"/>
+	<classpathentry kind="src" path="Practicar/src"/>
+	<classpathentry kind="src" path="Projecto/src"/>
+	<classpathentry kind="src" path="ProyectoPoo/src"/>
+	<classpathentry kind="src" path="PruebaPoo/src"/>
+	<classpathentry kind="output" path="BibliotecaPOO/bin"/>
+</classpath>
