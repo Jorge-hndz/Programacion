@@ -9,6 +9,9 @@ import java.util.Scanner;
 public class Session {
     private User user;
     private boolean logged;
+    public static final String ERROR_MESSAGE = "An error occurred.";
+    public static final String COMING_SOON = "Proximamente";
+    public static final String USERS_FILE_PATH = "assets/users.txt";
 
     public Session(){
         this.logged = false;
@@ -75,7 +78,7 @@ public class Session {
                 myWriter.write(System.lineSeparator());
                 myWriter.close();
             } catch (IOException e) {
-                System.out.println("An error occurred.");
+                System.out.println(ERROR_MESSAGE);
                 e.printStackTrace();
             }
         }
@@ -112,7 +115,7 @@ public class Session {
             }
             myReader.close();
         } catch (FileNotFoundException e) {
-            System.out.println("An error occurred.");
+            System.out.println(ERROR_MESSAGE);
             e.printStackTrace();
         }
 
@@ -125,7 +128,7 @@ public class Session {
             }
 
         } catch (FileNotFoundException e){
-            System.out.println("A ocurrido un error");
+            System.out.println(ERROR_MESSAGE);
             e.printStackTrace();
         }
 
@@ -147,7 +150,7 @@ public class Session {
             }
             myReader.close();
         } catch (FileNotFoundException e) {
-            System.out.println("An error occurred.");
+            System.out.println(ERROR_MESSAGE);
             e.printStackTrace();
         }
         return false;
@@ -166,7 +169,7 @@ public class Session {
             }
             myReader.close();
         } catch (FileNotFoundException e) {
-            System.out.println("An error occurred.");
+            System.out.println(ERROR_MESSAGE);
             e.printStackTrace();
         }
         return user;
@@ -181,19 +184,19 @@ public class Session {
 
             if (option == 1) {
 
-                System.out.println("Proximamente");
+                System.out.println(COMING_SOON);
 
             } else if (option == 2) {
 
-                System.out.println("Proximamente");
+                System.out.println(COMING_SOON);
 
             } else if (option == 3) {
 
-                System.out.println("Proximamente");
+                System.out.println(COMING_SOON);
 
             } else if (option == 4) {
 
-                System.out.println("Proximamente");
+                System.out.println(COMING_SOON);
 
             } else if (option == 5) {
 
